@@ -131,3 +131,4 @@ pm.expect(jsonData.value).to.eql('Success');    //判断message的值是”Succe
 ```
 点击Send，发送请求，PASS表示断言通过，FAIL表示断言失败。
 
+
