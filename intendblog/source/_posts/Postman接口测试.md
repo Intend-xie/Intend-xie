@@ -2,6 +2,7 @@
 title: Postman接口测试
 date: 2020-06-07 18:28:26
 tags: 测试
+cover_index: http://img.zcool.cn/community/0196aa56fe121d6ac72579489349a1.png
 ---
 
 此文仅是本人学习笔记。
