@@ -4,14 +4,13 @@ date: 2020-06-07 18:28:26
 tags: 测试
 cover_index: http://img.zcool.cn/community/0196aa56fe121d6ac72579489349a1.png
 ---
-
 此文仅是本人学习笔记。
 
-# 1、什么是接口
+## 1、什么是接口
 
 用于处理各个系统各个模块之间的数据。
 
-# 2、接口的组成
+## 2、接口的组成
 
 |  组成  | 描述  |
 |  ----  | ----  |
@@ -22,14 +21,13 @@ cover_index: http://img.zcool.cn/community/0196aa56fe121d6ac72579489349a1.png
 | Response   | 返回数据 |
 | Data   | 接口发送数据 |
 
-# 3、Postman基础用法介绍
+## 3、Postman基础用法介绍
 
-## (1)用法
+### (1)用法
 
 选择接口类型，填写接口地址、请求头，点击send可获取返回数据。
 
-## (2)发送数据的接口
-
+### (2)发送数据的接口
 ①Get的发送数据
 发送的数据之间写在URL，通过“？”间隔数据和地址
 参数和参数之间用“&”间隔（也可通过params直接输入）
@@ -55,8 +53,7 @@ Post：post和get相反，数据输入于body中
 ▪两个参数用“，”隔开，最后一个不用
 ▪JOSN格式里可以套用JOSN格式
 
-## (3)状态码的含义
-
+### (3)状态码的含义
 ①常见状态码：
 200：代表这个借口运行正常
 400：接口发送的参数不正确
@@ -65,14 +62,14 @@ Post：post和get相反，数据输入于body中
 500：代表接口的代码有问题，内部服务器错误
 ②其他状态码：401,402,303,406,408…（可自行百度）
 
-# 4、postman传递token参数，实现接口测试
+## 4、postman传递token参数，实现接口测试
 
 ⑴这里先设置环境变量，系统入口url在每个接口中都一样，设置成环境变量，便于维护。环境变量集名：rds。两个变量：url , token （token是为了下一步准准备）。
 ⑵新建登录接口请求，设置params(登录接口的账户&密码)。发请求到登录后，获取token。
 ⑶在Tests里面编写脚本，将获取到的token设置到环境变量token中。 同时Tests里面也可以加断言，判断该接口测试的结果。
 ⑷登录接口测试完后，查看环境变量，token值已被保存。
 
-# 5、变量
+## 5、变量
 
 分类：可分为全局变量和局部变量
 区别：局部变量要选择变量才能生效
@@ -85,15 +82,13 @@ Post：post和get相反，数据输入于body中
 第五步：点击切换参数
 第六步：将要参数改为变量:替换为｛｛参数名｝｝后，点击send运行，得出结果
 
-# 6、自定义脚本：JavaScript
+## 6、自定义脚本：JavaScript
 
-## (1)脚本的区别：
-
+### (1)脚本的区别：
 Pre-request Script：控制发送的数据
 Tests：控制返回的结果
 
-## (2)常用代码：
-
+### (2)常用代码：
 官方说明文档：https://learning.postman.com/docs/postman/scripts/postman-sandbox-api-reference/
 
 常用代码片段：
@@ -119,7 +114,7 @@ var nm = pm.variables.get("普通变量名");
 // Javascript 获取变量类型
 console.log( typeof pm.enviroment );
 ```
-# 7、断言：自动判断是否成功
+## 7、断言：自动判断是否成功
 
 官方说明文档：https://learning.getpostman.com/docs/postman/scripts/test_examples/
 断言语句参考：https://www.cnblogs.com/liruxian/p/10001539.html
