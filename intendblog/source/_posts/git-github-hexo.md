@@ -45,8 +45,8 @@ tags: git
 ## 3、设置用户名与邮箱（用户标识，必要）
 
 当你安装Git后首先要做的事情是设置你的用户名称和e-mail地址。这是非常重要的，因为每次Git提交都会使用该信息。它被永远的嵌入到了你的提交中：
-git config --global user.name "kuangshen"  #名称
-git config --global user.email 24736743@qq.com   #邮箱
+git config --global user.name "mingcheng"  #名称
+git config --global user.email youxiang   #邮箱
 只需要做一次这个设置，如果你传递了--global 选项，因为Git将总是会使用该信息来处理你在系统中所做的一切操作。如果你希望在一个特定的项目中使用不同的名称或e-mail地址，你可以在该项目中运行该命令而不要--global选项。总之--global为全局配置，不加为某个项目的特定配置。
 
 ## 4、创建SSH Key
