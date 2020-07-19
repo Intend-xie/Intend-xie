@@ -3,7 +3,6 @@ title: Python2.7和3.7区别
 date: 2020-07-14 18:50:13
 tags: Python
 ---
-
 此文仅是本人学习笔记。
 文章来源：https://www.cnblogs.com/sqm724/p/13294061.html?utm_source=tuicool
 
