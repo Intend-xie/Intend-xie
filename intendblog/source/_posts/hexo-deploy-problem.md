@@ -1,7 +1,7 @@
 ---
 title: hexo发生error：spawn failed错误的解决方法
 date: 2020-07-19 23:29:13
-tags: 
+tags: hexo
 ---
 此文仅是本人学习笔记。
 
