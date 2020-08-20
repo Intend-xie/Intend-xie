@@ -1,7 +1,12 @@
 ---
 title: 手写loadrunning脚本
 date: 2020-07-30 14:50:16
+comments: false
+auto_excerpt: true
+toc: true
 tags: Loadrunning
+categories: 
+description:
 ---
 此文仅是本人学习笔记。
 
@@ -200,3 +205,7 @@ lr_output_message("TypeId=%s",lr_eval_string("{TypeId_1}"));
 ![点击general options](/images/LoadrunningScript29.png)
 ![选择display](/images/LoadrunningScript30.png)
 （2）查看回放返回的数据与页面接口请求返回中的值是否一致
+
+
+
+

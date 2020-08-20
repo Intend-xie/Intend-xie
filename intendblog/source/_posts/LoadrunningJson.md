@@ -1,7 +1,12 @@
 ---
 title: Loadrunning的web_custom_request函数
 date: 2020-08-01 21:36:55
+comments: false
+auto_excerpt: true
+toc: true
 tags: Loadrunning
+categories: 
+description:
 ---
 此文仅是本人学习笔记。
 
@@ -64,3 +69,5 @@ web_custom_request(“getProjectList",
 "Mode=HTML",
 "Body={\"pageNo\":1,\"perPageSize\":10,\"type\":\"c\",\"companyId\":\"CF9111CB233F46C290F662E0FAFA3F25\",\"year\":2020},
 LAST);
+
+

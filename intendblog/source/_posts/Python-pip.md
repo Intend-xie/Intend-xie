@@ -1,7 +1,12 @@
 ---
 title: CMD命令模式使用pip提示Did not provide a command
 date: 2020-06-21 17:59:51
+comments: false
+auto_excerpt: true
+toc: true
 tags: Python
+categories: 
+description: 
 ---
 此文仅是本人学习笔记。
 

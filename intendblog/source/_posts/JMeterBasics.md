@@ -1,7 +1,12 @@
 ---
 title: JMeter入门基础
 date: 2020-08-17 11:12:23
+comments: false
+auto_excerpt: true
+toc: true
 tags: JMeter
+categories: 
+description:
 ---
 此文仅是本人学习笔记。
 
@@ -117,8 +122,6 @@ css：xxxx。
 | 测试计划 | 项目名称 |
 | 线程组   | 业务流程 |
 | HTTP请求 | 接口请求 |
-
-
 
 ## 五、线程用户
 线程数:表示请求的虚拟用户数量

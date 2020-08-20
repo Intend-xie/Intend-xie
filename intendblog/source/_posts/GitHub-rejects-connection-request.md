@@ -1,7 +1,12 @@
 ---
 title: 博客地址拒绝我的访问
 date: 2020-08-04 10:33:36
+comments: false
+auto_excerpt: true
+toc: true
 tags: hexo
+categories: 
+description:
 ---
 此文仅是本人学习笔记。
 

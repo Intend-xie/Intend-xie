@@ -1,8 +1,13 @@
 ---
 title: Postman接口测试
 date: 2020-06-07 18:28:26
-tags: 测试
-cover_index: http://img.zcool.cn/community/0196aa56fe121d6ac72579489349a1.png
+comments: false
+auto_excerpt: true
+toc: true
+tags: Postman
+categories: 
+description:
+#cover_index: http://img.zcool.cn/community/0196aa56fe121d6ac72579489349a1.png
 ---
 此文仅是本人学习笔记。
 
@@ -126,3 +131,7 @@ pm.expect(jsonData.value).to.eql(200);    //判断statusCode的值是200
 pm.expect(jsonData.value).to.eql('Success');    //判断message的值是”Success”
 ```
 点击Send，发送请求，PASS表示断言通过，FAIL表示断言失败。
+
+
+
+

@@ -1,7 +1,12 @@
 ---
 title: Python2.7和3.7区别
 date: 2020-07-14 18:50:13
+comments: false
+auto_excerpt: true
+toc: true
 tags: Python
+categories: 
+description:
 ---
 此文仅是本人学习笔记。
 文章来源：https://www.cnblogs.com/sqm724/p/13294061.html?utm_source=tuicool
@@ -47,5 +52,7 @@ operator.eq('hello', 'hello');   //True
 
 string.letters:包含所有字母（大写或小写）的字符串
 Python 3.0中，string.ascii_letters.
+
+
 
 

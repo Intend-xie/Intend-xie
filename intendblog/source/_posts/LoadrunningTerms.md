@@ -1,7 +1,12 @@
 ---
 title: Loadrunning用法
 date: 2020-08-11 10:02:23
+comments: false
+auto_excerpt: true
+toc: true
 tags: Loadrunning
+categories: 
+description:
 ---
 此文仅是本人学习笔记。
 
@@ -62,3 +67,5 @@ PV（Page View）：页面访问量，即页面浏览量或点击量，用户每
        响应时间：一般取平均响应时间
     理解了上面三个要素的意义之后，就能推算出它们之间的关系：
     QPS（TPS）= 并发数/平均响应时间
+
+    

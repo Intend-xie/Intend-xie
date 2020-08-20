@@ -1,7 +1,12 @@
 ---
 title: git+github+hexo学习
 date: 2020-06-21 16:33:25
+comments: false
+auto_excerpt: true
+toc: true
 tags: hexo
+categories: 
+description:
 ---
 此文仅是本人学习笔记。
 
