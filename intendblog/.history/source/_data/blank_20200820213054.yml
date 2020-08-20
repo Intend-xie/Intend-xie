@@ -3,7 +3,7 @@
 language: zh-CN
 
 # 设置 favicon
-favicon: /img/yuelianga.svg
+favicon: /img/yueliang.svg
 #/img/favicon.ico
 
 
@@ -21,7 +21,7 @@ menu:
   关于: { path: /about/, fa: fab fa-grav}
   留言: { path: /guestbook/, fa: fab fa-telegram}
   #friends: { path: /link/, fa: fab fa-weixin}
-  说说: {path: /shuoshuo/, fa: fas fa-coffee}
+  #说说: {path: /shuoshuo/, fa: fas fa-coffee}
  
 
 # 首页
@@ -112,13 +112,14 @@ baidu_analytics:
 # Post copyright
 copyright:
   enable: false
+  #true
   license_text: 
   #本博客所有文章除特别声明外，均采用许可协议 <a href="http://creativecommons.org/licenses/by-nc/4.0/">CC-BY-NC-4.0</a> 转载请注明出处！
 
 
 # 文章分享
 sharejs:
-  enable: false
+  enable: true
   sites: #facebook,twitter,wechat,weibo,qq
   style: #https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css
   scripts: #https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js
@@ -126,7 +127,7 @@ sharejs:
 
 # 赞助/捐献
 reward:
-  enable: false
+  enable: true
   AliPayQR:                  # 支付宝收款码
   WeChatQR:               # 微信收款码
   PayPalLink:                          # paypal收款链接
@@ -140,7 +141,7 @@ page_404:
 
 # 备案:
 ICP:
-  enable: false
+  enable: true
   link: 
   text: 
 #  icon: /img/icp.png
@@ -161,7 +162,7 @@ highlight:
 
 # mermaid
 mermaid:
-  enable: false
+  enable: true
   script: https://cdn.jsdelivr.net/npm/mermaid@8.6.3/dist/mermaid.min.js
 
 

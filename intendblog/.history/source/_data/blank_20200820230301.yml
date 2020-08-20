@@ -21,7 +21,7 @@ menu:
   关于: { path: /about/, fa: fab fa-grav}
   留言: { path: /guestbook/, fa: fab fa-telegram}
   #friends: { path: /link/, fa: fab fa-weixin}
-  说说: {path: /shuoshuo/, fa: fas fa-coffee}
+  #说说: {path: /shuoshuo/, fa: fas fa-coffee}
  
 
 # 首页
@@ -161,7 +161,7 @@ highlight:
 
 # mermaid
 mermaid:
-  enable: false
+  enable: true
   script: https://cdn.jsdelivr.net/npm/mermaid@8.6.3/dist/mermaid.min.js
 
 
