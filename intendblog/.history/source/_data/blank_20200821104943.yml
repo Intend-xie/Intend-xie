@@ -205,16 +205,10 @@ scripts:
 - https://cdn.jsdelivr.net/npm/highlightjs-line-numbers.js@2.7.0/dist/highlightjs-line-numbers.min.js
 
 
-live2d:
-  enable: true
-  scriptFrom: local
-  model:
-    use: live2d-widget-model-hijiki
-  display:
-    position: right
-    width: 150
-    height: 300
-  mobile:
-    show: true
+cursor_effect:
+  enabled: true
+  type: love  # fireworks：礼花 | explosion：爆炸 | love：浮出爱心 | text：浮出文字
+
+
 
 
