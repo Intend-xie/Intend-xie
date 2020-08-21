@@ -85,4 +85,3 @@ securecrt 按下ALT+P就开启新的会话 进行ftp操作。
 输入get 200805jzdl.csv下载
 ![img](/images/LoadrunningToCollectData28.png)
 其他应用了解地址：https://wenwen.sogou.com/z/q799956086.htm
-
