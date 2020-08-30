@@ -202,7 +202,7 @@ stylesheets:
 - /css/style.css
 - /css/partial/highlight/atom-one-light.css # highlight代码高亮样式
 - https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css
-#- https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css
+- https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css
 - https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css
 
 

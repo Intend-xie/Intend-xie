@@ -90,7 +90,6 @@ search:
   format: html
   limit: 10000
 
-
 # Include / Exclude file(s)
 ## include:/exclude: options only apply to the 'source/' folder
 include:

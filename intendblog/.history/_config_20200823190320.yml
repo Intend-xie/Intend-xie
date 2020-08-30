@@ -90,7 +90,6 @@ search:
   format: html
   limit: 10000
 
-
 # Include / Exclude file(s)
 ## include:/exclude: options only apply to the 'source/' folder
 include:
@@ -110,3 +109,10 @@ deploy:
     type: git
     repo: https://github.com/Intend-xie/Intend-xie.github.io.git
     branch: master
+
+# URL 配置站点
+## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
+url: https://intend-xie.github.io # 这里应该更改为你自己的站点地址，我写的是我的
+root: /
+permalink: :title/ # 这里简化目录结构，后面也会讲到
+permalink_defaults:

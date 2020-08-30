@@ -32,14 +32,8 @@ post数据请求用web_submit_data
 （2）生成脚本，并修改如下（
 Ⅰ参数中的引号"前需要加斜杠\转译
 如：json 对象
-错误：
-```javascript
-"Value={"cate":[{"fieldName":"BACCNAME","text":"功能分类名称 "}],"series":[{"fieldName":"SUMMONEY","text":"支出金额"}],"desc":[{"sqlField":false,"fieldName":"金额(万元)"}]}", 
-```
-正确：
-```javascript
-"Value={\"cate\":[{\"fieldName\":\"BACCNAME\",\"text\":\"功能分类名称 \"}],\"series\":[{\"fieldName\":\"SUMMONEY\",\"text\":\"支出金额\"}],\"desc\":[{\"sqlField\":false,\"fieldName\":\"金额(万元)\"}]}",
-```
+错误："Value={"cate":[{"fieldName":"BACCNAME","text":"功能分类名称 "}],"series":[{"fieldName":"SUMMONEY","text":"支出金额"}],"desc":[{"sqlField":false,"fieldName":"金额(万元)"}]}", 
+正确："Value={\"cate\":[{\"fieldName\":\"BACCNAME\",\"text\":\"功能分类名称 \"}],\"series\":[{\"fieldName\":\"SUMMONEY\",\"text\":\"支出金额\"}],\"desc\":[{\"sqlField\":false,\"fieldName\":\"金额(万元)\"}]}",
 Ⅱ手写脚本"Snapshot="为空
 Ⅲ扩展中是请求后的静态资源js、css、woff
 Ⅳ脚本写好后可通过回放，验证脚本的正确性

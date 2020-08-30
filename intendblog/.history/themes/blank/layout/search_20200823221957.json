@@ -1,0 +1,7 @@
+<script type="text/javascript">
+$(function () {
+    console.log("lets go！");
+    console.log("<%= config.root %>");
+    searchFunc("<%= config.root %>" + "search.json", 'searchInput', 'searchResult');
+});
+</script>
