@@ -47,7 +47,7 @@ future: true
 highlight:
   enable: true
   line_number: true
-  auto_detect: true
+  auto_detect: false
   tab_replace: ''
   wrap: true
   hljs: false
@@ -87,7 +87,8 @@ pagination_dir: page
 search:
   path: search.xml
   field: post
-  content: true
+  format: html
+  limit: 10000
 
 
 # Include / Exclude file(s)
@@ -99,7 +100,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: blank
+theme: next
 #theme: phantom
 
 

@@ -14,7 +14,7 @@ rss: /atom.xml
 # 顶部菜单  
 # 如果不需要显示某项,可以用'#'注释掉
 menu:
-  # 搜索: { path: /search/, fa: fas fa-search-plus}
+  搜索: { path: /search/, fa: fas fa-search-plus}
   首页: { path: /, fa: fab fa-fort-awesome}
   归档: { path: /archives/, fa: fas fa-archive}
   标签: { path: /tags/, fa: fas fa-hashtag}

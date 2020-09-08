@@ -55,7 +55,7 @@ Step download timeout，分别建议修改为1000、1000、10000；run time sett
 （1）run time setting--Miscellaneous--Automatic Transactions在脚本和场景设置中同时勾上这两项，保存后，再去掉勾选这两项，再保存。
 ![img](/images/CapacityTestingIssues3.png)
 
-## 回放数据出现错误Error -26377: No match found for the requested parameter "outboundFlight". Check whether the requested boundaries exist in the response data. Also, if the data you want to save exceeds 256 bytes, use web_set_max_html_param_len to increase the parameter size
+## Error -26377: No match found for the requested parameter "outboundFlight". Check whether the requested boundaries exist in the response data. Also, if the data you want to save exceeds 256 bytes, use web_set_max_html_param_len to increase the parameter size
 原因：
 开发更改接口，没有发现匹配请求的参数，响应数据中存在边界错误。
 解决方法：

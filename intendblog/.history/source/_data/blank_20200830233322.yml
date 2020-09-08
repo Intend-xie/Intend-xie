@@ -14,7 +14,7 @@ rss: /atom.xml
 # 顶部菜单  
 # 如果不需要显示某项,可以用'#'注释掉
 menu:
-  # 搜索: { path: /search/, fa: fas fa-search-plus}
+  #搜索: { path: /search/, fa: fas fa-search-plus}
   首页: { path: /, fa: fab fa-fort-awesome}
   归档: { path: /archives/, fa: fas fa-archive}
   标签: { path: /tags/, fa: fas fa-hashtag}
@@ -154,17 +154,27 @@ googlefonts:
 
 
 # highlight
-highlight:
-  enable: true
-  line_number: true
-  auto_detect: true
-  tab_replace: ''
-  wrap: true
-  hljs: false 
+# highlight:
+#   enable: true
+#   line_number: true
+#   auto_detect: true
+#   tab_replace: ''
+#   wrap: true
+#   hljs: false 
 # highlight:
 #   enable: true
 #   style: https://cdn.jsdelivr.net/npm/highlight.js@10.1.1/styles/github.css
-#  https://www.jsdelivr.com/package/npm/highlight.js?path=styles 找到你喜欢的代码高亮主题并替换上面
+#   https://www.jsdelivr.com/package/npm/highlight.js?path=styles 找到你喜欢的代码高亮主题并替换上面
+
+
+
+# highlight
+highlight:
+  enable: true
+  style: https://cdn.jsdelivr.net/npm/highlight.js@10.1.1/styles/github.css
+#   https://www.jsdelivr.com/package/npm/highlight.js?path=styles 找到你喜欢的代码高亮主题并替换上面
+
+
 
 
 
@@ -207,7 +217,6 @@ stylesheets:
 - https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css
 #- https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css
 - https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css
-
 
 
 # scripts loaded in the end of the body

@@ -87,7 +87,8 @@ pagination_dir: page
 search:
   path: search.xml
   field: post
-  content: true
+  format: html
+  limit: 10000
 
 
 # Include / Exclude file(s)
